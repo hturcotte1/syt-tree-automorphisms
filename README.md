@@ -2,8 +2,6 @@
 
 Code, data and write-up for a study of Problems 2 and 3 of D. R. Worley's notebook of open problems on the combinatorics of tableaux (arXiv:2509.25446). Problem 3 concerns the tree SYT of all standard Young tableaux ordered by containment: Conjecture A says that every automorphism of the tree is a composition of "partial transposes" at vertices of symmetric shape, and Conjecture B says that the rank census of the subtree below a vertex determines the shape of the vertex up to transpose. Problem 2 is the shifted analogue.
 
-Prepared by an AI research session (Claude) directed and reviewed by [NAMES]. Every claim is labelled PROVED, COMPUTATIONALLY VERIFIED (with range and code), or CONJECTURAL.
-
 ## Main results
 
 * Conjecture A is false as stated: at a vertex of shape (3,2,1) the subtrees of a single mirror pair of children can be transposed, and a parity invariant shows that this automorphism is not a limit of compositions of the whole-subtree transposes. The corrected generators are these pair transposes; the corrected statement is equivalent to a weak form of Conjecture B ("non-mirror siblings have non-isomorphic subtrees"), which holds to depth 75.
